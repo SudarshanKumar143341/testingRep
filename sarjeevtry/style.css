@@ -23,6 +23,12 @@
   padding: 15px 10px;
   border-bottom: 1px solid rgba(100, 100, 100, 0.3);
 }
+.sidebar ul li:hover {
+  background-color:white;
+}
+.ul li ul li{
+  display:none;
+}
 .toggle-btn {
   position: absolute;
   left: 230px;
@@ -34,4 +40,7 @@
   height:5px;
   background-color:black;
   margin:3px;
+}
+.dropdown-menu ul li a{
+  display:none;
 }
