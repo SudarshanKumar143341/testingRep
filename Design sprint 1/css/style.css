@@ -282,15 +282,13 @@ button:hover {
 
 }
 .centered {
-    position: absolute;
     font-style: sans-serif;
     font-size:35px;
-    color:#211545;
+    color:#ffffff;
     border:1px;
-    border-radius:5px;
-    background-color:white;
+    background-color:#211545;
+    text-align: center;
   }
-
 
 
 .btn::before{
@@ -321,15 +319,13 @@ button:hover {
 
 
 
+
 .centered {
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display:block;
     font-style: sans-serif;
     font-size:30px;
-    color:#211545;
+    color:#ffffff;
     border:0;
-    border-radius:5px;
-    background-color:white;
+    background-color:#211545;
+    text-align: center;
   }
